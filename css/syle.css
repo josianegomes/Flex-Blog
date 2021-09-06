@@ -1,0 +1,92 @@
+body, h1, h2, p, ul, li, a{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%; /*faz com que a img diminua quando a tela for menor ou aumente sem perder a qualidade*/
+}
+
+*{
+    box-sizing: border-box; /*o item respeita o tamanho do width que colocar sem somar com o padding*/
+}
+
+/*SUPERINFO*/
+
+.superinfo_bg{
+    background: #122ab2;
+    color: #fff;
+}
+
+.superinfo{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /*fica um elemento na direita outro na esq e um no centro*/
+    flex-wrap: wrap; /*quebra linha quando nao couber no container*/
+    padding-top: 10px;
+}
+
+.superinfo p, .superinfo a{
+margin: 0 10px 10px 10px;
+}
+
+.superinfo a{
+    color: #fff;
+}
+
+/*MENU*/
+
+.menu_bg{
+    background:#2c70ff ;
+}
+
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu a{
+    color: #fff;
+}
+
+
+.menu_logo a{
+    font: size 2.25em; 
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu_nav ul{
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.menu_nav a {
+    font-size: 1.25em; /*tamanho da fonte dividido por 16*/
+    display: block;
+    padding: 10px;
+}
+
+.menu_nav a:hover{
+    color: #122ab2;
+}
